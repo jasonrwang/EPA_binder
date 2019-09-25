@@ -9,6 +9,8 @@ Binder config that can run Jupyter Notebook and R with the packages and tools yo
 1. Fork this repository (repo) – you'll need a GitHub account
 2. Upload the notebook files you need to run into your repo (this requires a "commit"). The "master" branch should be fine, though you should learn what this means.
 3. Launch your Binder (or Google Colab)
+4. Run the notebook files you need (or create a new one from the interface); make sure you're on the kernel you want
+5. Save and download the notebook file to your own computer and then re-upload it to your GitHub repository
 
 ### Launching your Binder
 
@@ -31,6 +33,9 @@ Comes with packages listed in:
 
 ### Adding More Packages
 
-You can either:
-- Make a new cell and run `%pip install package_name` (works best for quick testing)
-- Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder
+Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder.
+
+If you need to do something quickly, make a new cell and:
+
+- With a Python kernel, run `%pip install package_name`
+- With an R kernel, run `install.packages("package_name")`
