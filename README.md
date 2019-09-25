@@ -29,6 +29,7 @@ If you're only using Python, you can also launch this in [Google Colab](https://
 Comes with packages listed in:
 
 - requirements.yml (Conda for Python)
+- runtime.txt (specific version of Microsoft R – note this may differ from Conda's version)
 - install.R (for R)
 
 ### Adding More Packages
