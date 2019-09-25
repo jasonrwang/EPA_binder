@@ -9,16 +9,20 @@ Binder config that can run Jupyter Notebook and R with the packages and tools yo
 1. Fork this repository (repo) – you'll need a GitHub account
 2. Upload the notebook files you need to run into your repo (this requires a "commit"). The "master" branch should be fine, though you should learn what this means.
 3. Launch your Binder (or Google Colab)
-4. Run the notebook files you need (or create a new one from the interface); make sure you're on the kernel you want
-5. Save and download the notebook file to your own computer and then re-upload it to your GitHub repository
+4. Run the notebook or R files you need (or create a new one from the interface); make sure you're on the kernel you want
+5. Save and download the saved file to your own computer and then re-upload it to your GitHub repository
+
+Example: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master)
+Example with RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
 
 ### Launching your Binder
 
-You have two options:
+You have two options to access Binder:
 
 1. Go to [mybinder.org](https://mybinder.org) and follow the instructions there – use your own repo
 2. Use this URL but paste in your own username: https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master
 
+Binder also lets you run RStudio directly instead of launching a Jupyter Notebook. To do this, simply add `?urlpath=rstudio` at the end of the URL (like in #2 above). For example, [https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
 
 #### Alternative Option: Google Colab
 
@@ -34,7 +38,7 @@ Comes with packages listed in:
 
 ### Adding More Packages
 
-Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder.
+Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder. This may require Binder to recompile your working environment, which can take many, many minutes!
 
 If you need to do something quickly, make a new cell and:
 
