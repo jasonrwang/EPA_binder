@@ -38,7 +38,7 @@ Comes with packages listed in:
 
 ### Adding More Packages
 
-Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder. This may require Binder to recompile your working environment, which can take many, many minutes!
+Edit one of the above requirements/install files to include the package you want to use for next time you launch Binder. This may require Binder to recompile your working environment, which can take many, many
 
 If you need to do something quickly, make a new cell and:
 
