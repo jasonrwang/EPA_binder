@@ -22,9 +22,11 @@ You have two options to access Binder:
 
 Binder also lets you run RStudio directly instead of launching a Jupyter Notebook. To do this, simply add `?urlpath=rstudio` at the end of the URL (like in #2 above). For example, [https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
 
-#### Alternative Option: Google Colab
+#### Alternative Options
 
-If you're only using Python, you can also launch this in [Google Colab](https://colab.research.google.com/). It might be more user-friendly to use, but comes with a bunch of Google-specific stuff that might be annoying. You can easily integrate Google Colab with your GitHub account too, or you can keep the files in your Google Drive.
+If you're only using Jupyter Notebook with Python, you can also launch this in [Google Colab](https://colab.research.google.com/). It might be more user-friendly to use, but comes with a bunch of Google-specific stuff that might be annoying. You can easily integrate Google Colab with your GitHub account too, or you can keep the files in your Google Drive.
+
+If you don't care about the Jupyter Notebook part (there are good reasons to!), then you can spin up an online VS Code Python environment with GitPod. It's the same logic as above; for me, it's [https://gitpod.io/github.com/jasonrwang/EPA_binder](https://gitpod.io/github.com/jasonrwang/EPA_binder).
 
 ## Other
 
