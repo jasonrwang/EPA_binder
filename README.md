@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master)
-
 # EPA_binder
 
 Binder config that can run Jupyter Notebook and R with the packages and tools you'll likely need for EPA1315 and EPA1333.
@@ -35,6 +33,8 @@ Comes with packages listed in:
 - requirements.yml (Conda for Python)
 - runtime.txt (specific version of Microsoft R – note this may differ from Conda's version)
 - install.R (for R)
+
+Note that the melt and cast features of `reshape2` can also be done in `tidyr`, which is part of tidyverse! See more [here](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/).
 
 ### Adding More Packages
 
