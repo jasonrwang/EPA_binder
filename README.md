@@ -1,6 +1,6 @@
 # EPA_binder
 
-Binder config that can run Jupyter Notebook and R with the packages and tools you'll likely need for EPA1315 and EPA1333.
+Binder config that can run Jupyter Notebook (in Lab) and R with the packages and tools you'll likely need for EPA1315 and EPA1333.
 
 ## How To
 
@@ -10,7 +10,7 @@ Binder config that can run Jupyter Notebook and R with the packages and tools yo
 4. Run the notebook or R files you need (or create a new one from the interface); make sure you're on the kernel you want
 5. Save and download the saved file to your own computer and then re-upload it to your GitHub repository
 
-Example: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master)
+Example (with Jupyter Lab): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=lab)
 Example with RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
 
 ### Launching your Binder
@@ -18,9 +18,9 @@ Example with RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://m
 You have two options to access Binder:
 
 1. Go to [mybinder.org](https://mybinder.org) and follow the instructions there – use your own repo
-2. Use this URL but paste in your own username: https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master
+2. Use this URL but paste in your own username: https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=lab
 
-Binder also lets you run RStudio directly instead of launching a Jupyter Notebook. To do this, simply add `?urlpath=rstudio` at the end of the URL (like in #2 above). For example, [https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
+Binder also lets you run RStudio directly instead of launching in Jupyter Lab. To do this, simply add `?urlpath=rstudio` at the end of the URL (like in #2 above). For example, [https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio](https://mybinder.org/v2/gh/jasonrwang/EPA_binder/master?urlpath=rstudio)
 
 #### Alternative Options
 
@@ -37,6 +37,8 @@ Comes with packages listed in:
 - install.R (for R)
 
 Note that the melt and cast features of `reshape2` can also be done in `tidyr`, which is part of tidyverse! See more [here](http://www.milanor.net/blog/reshape-data-r-tidyr-vs-reshape2/).
+
+You can also run the binder in the older Jupyter Notebook by removing the "?urlpath=lab" part of the URL. There are many reasons to use Lab instead though!
 
 ### Adding More Packages
 
